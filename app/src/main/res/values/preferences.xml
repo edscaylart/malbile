@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_cookie_key">preference_cookie</string>
+    <string name="preference_token_key">preference_token</string>
+
+    <!-- Preference Categories: -->
+    <string name="preference_category_general_key">preference_category_general</string>
+    <string name="preference_category_general_title">Geral</string>
+    <string name="preference_category_reader_key">preference_category_reader</string>
+    <string name="preference_category_reader_title">Leitor</string>
+    <string name="preference_category_download_key">preference_category_download</string>
+    <string name="preference_category_download_title">Download</string>
+
+    <!-- General: -->
+    <string name="preference_startup_key">preference_startup</string>
+    <string name="preference_startup_title">Atual tela inicial</string>
+    <string name="preference_startup_title_summary">Escolha a tela de inicialização atual para abrir quando lançado</string>
+    <string-array name="preference_startup_entries">
+        <item>Anime</item>
+        <item>Mangá</item>
+    </string-array>
+    <string-array name="preference_startup_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="preference_startup_default_value">1</string>
+    <string name="preference_sharing_key">preference_sharing</string>
+    <string name="preference_sharing_title">Texto de Compartilhamento</string>
+    <string name="preference_sharing_title_summary">Crie seu próprio texto de compartilhamento! Use $ title; e $ link; no lugar do título e link para MAL, nós faremos o resto.</string>
+    <string name="preference_sharing_default_value">Confira $title; no MyAnimeList!\n$link;</string>
+
+    <!-- Reader: -->
+    <string name="preference_source_key">preference_source</string>
+    <string name="preference_source_title">Fonte atual</string>
+    <string name="preference_source_title_summary">Escolha a fonte de manga atual para usar para a leitura</string>
+    <string-array name="preference_source_entries">
+        <item>MangaEden (EN)</item>
+    </string-array>
+    <string-array name="preference_source_values">
+        <item>MangaEden (EN)</item>
+    </string-array>
+    <string name="preference_source_default_value">MangaEden (EN)</string>
+    <string name="preference_clear_image_cache_key">preference_clear_image_cache</string>
+    <string name="preference_clear_image_cache_title">Limpar cache de imagem</string>
+    <string name="preference_clear_image_cache_summary">Excluir todo cache de imagem</string>
+
+    <!-- Download: -->
+    <string name="preference_download_wifi_key">preference_download_wifi</string>
+    <string name="preference_download_wifi_title">Download apenas na Wi-Fi</string>
+    <string name="preference_download_wifi_summary">Download de capítulos apenas em conexão Wi-Fi</string>
+    <string name="preference_download_storage_key">preference_storage_directory</string>
+    <string name="preference_download_storage_title">Atual diretório de Download </string>
+    <string name="preference_download_storage_title_summary">Especificar o diretório de download dos capítulos</string>
+
+    <!-- Viewer: -->
+    <string name="preference_view_type_key">preference_view_type</string>
+    <string name="preference_view_type_title">Tipo de exibição atual</string>
+    <string name="preference_view_type_title_summary">Escolha o tipo de vista atual para usar para a leitura</string>
+    <string-array name="preference_view_type_entries">
+        <item>Fit Centre</item>
+        <item>Fit Width</item>
+        <item>Fit Height</item>
+    </string-array>
+    <string-array name="preference_view_type_values">
+        <item>Fit Centre</item>
+        <item>Fit Width</item>
+        <item>Fit Height</item>
+    </string-array>
+    <string name="preference_view_type_default_value">Fit Centre</string>
+    <string name="preference_lazy_loading_key">preference_lazy_loading</string>
+    <string name="preference_lazy_loading_title">Enable Lazy Loading</string>
+    <string name="preference_lazy_loading_summary">To conserve bandwidth, enable lazy loading to load image pages dynamically</string>
+    <string name="preference_direction_key">preference_right_to_left_reading</string>
+    <string name="preference_direction_title">Habilitar da direita para a esquerda Reading</string>
+    <string name="preference_direction_summary">Deslize da direita para a esquerda em vez de esquerda para a direita para ler a próxima página</string>
+    <string name="preference_orientation_key">preference_lock_orientation</string>
+    <string name="preference_orientation_title">Orientação de bloqueio</string>
+    <string name="preference_orientation_summary">Bloquear a orientação da tela ao exibir imagens</string>
+    <string name="preference_zoom_key">preference_lock_zoom</string>
+    <string name="preference_zoom_title">Bloqueio de Zoom</string>
+    <string name="preference_zoom_summary">Bloquear as configurações de zoom para transferir para rolada imagens</string>
+</resources>

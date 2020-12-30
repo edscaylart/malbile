@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/status_watching" android:title="@string/anime_status_watching" />
+    <item android:id="@+id/status_completed" android:title="@string/anime_status_completed" />
+    <item android:id="@+id/status_onhold" android:title="@string/anime_status_onhold" />
+    <item android:id="@+id/status_dropped" android:title="@string/anime_status_dropped" />
+    <item android:id="@+id/status_plantowatch" android:title="@string/anime_status_plantowatch" />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_chapter_error">Não é possível carregar dados de capítulo. Por favor tente de novo mais tarde.</string>
+    <string name="toast_cleared_image_cache">Cache de imagem apagada</string>
+    <string name="toast_external_storage_error">Não foi possível montar a armazenamento externo. Por favor tente de novo mais tarde.</string>
+    <string name="toast_manga_error">Não é possível carregar atualizações mangá. Por favor tente de novo mais tarde.</string>
+    <string name="toast_no_next_chapter">Sem próximo capítulo</string>
+    <string name="toast_no_previous_chapter">Sem capítulo anterior</string>
+    <string name="toast_no_next_page">Nenhuma página seguinte</string>
+    <string name="toast_no_previous_page">Nenhuma página anterior</string>
+    <string name="toast_not_initialized">Não inicializado. Por favor tente de novo mais tarde.</string>
+</resources>

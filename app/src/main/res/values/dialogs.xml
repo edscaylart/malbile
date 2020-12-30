@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_label_episodes">Eu assisti</string>
+    <string name="dialog_label_chapters">Eu li</string>
+    <string name="dialog_label_rewatching">Total reassistido</string>
+    <string name="dialog_label_rereading">Total lido</string>
+    <string name="dialog_label_rating">Classificação</string>
+    <string name="dialog_label_update">Atualizar</string>
+    <string name="dialog_label_cancel">Cancelar</string>
+    <string name="dialog_label_remove">Remover</string>
+    <string name="dialog_label_logout">Sair</string>
+
+    <string name="dialog_title_update_info">Atualizar informações</string>
+    <string name="dialog_msg_update_info">Estamos atualizando suas informações. Aguarde um segundo</string>
+
+    <string name="dialog_title_remove">Removendo da lista</string>
+    <string name="dialog_title_logout">Confirmando saída</string>
+    <string name="dialog_title_verifying">Verificando</string>
+
+    <string name="dialog_message_logout">Você tem certeza que deseja sair? Isto irá apagar todos os dados e imagem armazenados.</string>
+    <string name="dialog_message_remove">Absolutamente certo? Uma vez que excluído, não será recuperado.</string>
+    <string name="dialog_message_verifying">Certificando-se a sua conta está OK. Segure firme um segundo.</string>
+
+    <string name="dialog_catalogue_filter">Filtrar Catálogo</string>
+    <string name="dialog_add_to_queue">Adicionar na Fila</string>
+    <string name="dialog_mark_read">Marcar Lido</string>
+    <string name="dialog_resume_chapter">Contínuar capítulo</string>
+    <string name="dialog_select_page">Selecionar página</string>
+    <string name="dialog_chapter_help">Capítulo Ajuda</string>
+    <string name="dialog_disclaimer">Aviso Legal</string>
+    <string name="dialog_open_source_licenses">Open Source Licenses</string>
+</resources>

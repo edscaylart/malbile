@@ -1,0 +1,41 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/baseline_component_unit">
+
+    <ImageView
+        android:id="@+id/NDimage"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nav_background"/>
+
+    <com.makeramen.RoundedImageView
+        android:id="@+id/thumbnailImageView"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/user_noimage"
+        app:riv_border_color="#000000"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="30dip"
+        app:riv_mutate_background="true"
+        app:riv_oval="true"
+        app:riv_tile_mode="clamp"/>
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thumbnailImageView"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="15dp"
+        android:ellipsize="end"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/typography_title"/>
+</FrameLayout>

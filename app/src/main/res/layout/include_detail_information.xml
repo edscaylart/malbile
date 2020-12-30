@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_view_margin"
+    android:elevation="@dimen/card_view_elevation"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Informações"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Tipo"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeEpisode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbEpisode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Episódio"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaEpisode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeVolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Volume"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeChapters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbChapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Capítulo"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaChapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Status"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeAired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbAired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="No ar"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaAired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeProducers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:visibility="gone"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbProducers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Producers"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaProducers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="100dp"
+                android:gravity="right"
+                android:textAlignment="gravity"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeGenres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbGenres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Gênero"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaGenres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="100dp"
+                android:gravity="right"
+                android:textAlignment="gravity"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Classificação"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_drawer_open">Abrir</string>
+    <string name="action_drawer_close">Fechar</string>
+    <string name="action_library_remove">Remover da lista</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_write_message">Escrever Mensagem</string>
+
+    <string name="action_message_send">Enviar Mensagem</string>
+    <string name="action_review_send">Enviar Review</string>
+    <string name="action_rec_send">Enviar Recomendação</string>
+
+    <string name="action_search">Pesquisar</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="action_help">Ajuda</string>
+    <string name="action_to_top">Para o Topo</string>
+    <string name="action_download">Baixar</string>
+    <string name="action_select_all">Selecionar Tudo</string>
+    <string name="action_select_page">Selecionar Página</string>
+    <string name="action_start_downloader">Inicial Downloader</string>
+    <string name="action_stop_downloader">Parar Downloader</string>
+    <string name="action_left_to_right">Esquerda-para-Direita</string>
+    <string name="action_lock_orientation">Travar Orientação</string>
+    <string name="action_lock_zoom">Travar Zoom</string>
+    <string name="action_mark_read">Marcar Lido</string>
+    <string name="action_refresh">Atualziar</string>
+    <string name="action_right_to_left">Direita-para-Esquerda</string>
+
+    <string name="action_clear">Limpar</string>
+    <string name="action_delete">Excluir</string>
+
+    <string name="action_cancel">Cancelar</string>
+
+    <string name="action_unlock_orientation">Destravra Orientação</string>
+    <string name="action_unlock_zoom">Destravar Zoom</string>
+</resources>

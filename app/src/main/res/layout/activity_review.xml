@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeStory"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="?android:selectableItemBackground"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/lbStory"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:text="História"
+                            android:textStyle="bold"/>
+
+                        <RatingBar
+                            android:id="@+id/revStory"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@+id/lbStory"
+                            android:max="5"
+                            android:numStars="5"
+                            android:rating="0"
+                            android:stepSize="0.5"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeEnjoyment"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="?android:selectableItemBackground"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/lbEnjoyment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:text="Divertimento"
+                            android:textStyle="bold"/>
+
+                        <RatingBar
+                            android:id="@+id/revEnjoyment"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@+id/lbEnjoyment"
+                            android:max="5"
+                            android:numStars="5"
+                            android:rating="0"
+                            android:stepSize="0.5"/>
+
+                    </RelativeLayout>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/darker_gray"/>
+
+                <TableRow>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeArt"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="?android:selectableItemBackground"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/lbArt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:text="Arte"
+                            android:textStyle="bold"/>
+
+                        <RatingBar
+                            android:id="@+id/revArt"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@+id/lbArt"
+                            android:max="5"
+                            android:numStars="5"
+                            android:rating="0"
+                            android:stepSize="0.5"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeCharacter"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="?android:selectableItemBackground"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/lbCharacter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:text="Personagem"
+                            android:textStyle="bold"/>
+
+                        <RatingBar
+                            android:id="@+id/revCharacter"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@+id/lbCharacter"
+                            android:max="5"
+                            android:numStars="5"
+                            android:rating="0"
+                            android:stepSize="0.5"/>
+                    </RelativeLayout>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/darker_gray"/>
+
+                <TableRow>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeSound"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="?android:selectableItemBackground"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/lbSound"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:text="Som"
+                            android:textStyle="bold"/>
+
+                        <RatingBar
+                            android:id="@+id/revSound"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@+id/lbSound"
+                            android:max="5"
+                            android:numStars="5"
+                            android:rating="0"
+                            android:stepSize="0.5"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeOverall"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="?android:selectableItemBackground"
+                        android:clickable="true">
+
+                        <TextView
+                            android:id="@+id/lbOverall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:text="Em geral"
+                            android:textStyle="bold"/>
+
+                        <RatingBar
+                            android:id="@+id/revOverall"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:layout_toRightOf="@+id/lbOverall"
+                            android:max="5"
+                            android:numStars="5"
+                            android:rating="0"
+                            android:stepSize="0.5"/>
+                    </RelativeLayout>
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/darker_gray"/>
+
+            <EditText
+                android:id="@+id/message_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:gravity="top"
+                android:hint="Escreva sua review"
+                android:inputType="textMultiLine|textCapSentences"
+                android:lines="14"
+                android:maxLines="200"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

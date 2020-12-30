@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/baseline_component_unit">
+
+                <ImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="fitXY"/>
+
+                <RelativeLayout
+                    android:id="@+id/headerProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/profileImage">
+
+                    <TextView
+                        android:id="@+id/profileUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="2dp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                        android:textColor="#000000"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/profileLastOnline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/profileUsername"
+                        android:layout_marginLeft="16dp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                        android:textColor="#000000"
+                        android:textSize="14sp"/>
+
+                    <Button
+                        android:id="@+id/btnAnimeList"
+                        style="@style/button_white_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/profileLastOnline"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="57dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_blue_style"
+                        android:text="Anime List"
+                        android:textAllCaps="false"/>
+
+                    <Button
+                        android:id="@+id/btnMangaList"
+                        style="@style/button_white_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/btnAnimeList"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_blue_style"
+                        android:text="Manga List"
+                        android:textAllCaps="false"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <include layout="@layout/include_profile_information"/>
+
+            <include layout="@layout/include_profile_anime_stats"/>
+
+            <include layout="@layout/include_profile_manga_stats"/>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

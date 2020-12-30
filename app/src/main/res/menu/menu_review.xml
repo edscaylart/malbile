@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="br.scaylart.malbile.views.activities.ReviewActivity">
+      <item
+          android:id="@+id/action_review_send"
+          android:icon="@drawable/ic_send"
+          android:title="@string/action_review_send"
+          app:showAsAction="always" />
+</menu>

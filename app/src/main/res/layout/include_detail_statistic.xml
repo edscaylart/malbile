@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_view_margin"
+    android:elevation="@dimen/card_view_elevation"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="Estatísticas"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Pontuação"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeRanked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbRanked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Rank"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaRanked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativePopularity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:visibility="gone"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbPopularity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Popularity"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaPopularity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeMembers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbMembers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Membros"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaMembers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeFavorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/relative_pattern_margin"
+            android:layout_marginRight="@dimen/relative_pattern_margin"
+            android:padding="@dimen/relative_pattern_padding">
+
+            <TextView
+                android:id="@+id/lbFavorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Favoritos"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/mediaFavorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

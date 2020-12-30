@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/secondaryBackground"
+              android:orientation="vertical"
+              android:padding="@dimen/dialog_content_padding">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/baseline_component_unit"
+        android:text="@string/dialog_label_rating"
+        android:textColor="@color/primaryBlue500"
+        android:textSize="@dimen/typography_title"
+        android:textStyle="bold"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RatingBar
+                android:id="@+id/dialogRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:max="5"
+                android:numStars="5"
+                android:stepSize="0.5"/>
+
+            <TextView
+                android:id="@+id/ratingBarFlavourText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dialogRatingBar"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="14dp"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/msg_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Madreperola"/>
+
+        <TextView
+            android:id="@+id/msg_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/msg_username"
+            android:text="re: Testando Envio"
+            android:ellipsize="marquee"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/msg_shortMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/msg_username"
+            android:text="Envio via Android App"
+            android:ellipsize="marquee"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/msg_dateMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="end"
+        android:text="45 minutes ago"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/darker_gray" />
+</RelativeLayout>

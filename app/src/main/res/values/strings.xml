@@ -1,0 +1,268 @@
+<resources>
+    <!-- Application Names: -->
+    <string name="app_name">Malbile</string>
+    <string name="service_name">Malbile Downloader</string>
+    <string name="access_rank_developer">Malbile developer</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- GENERAL Strings -->
+    <string name="unknown">unknown</string>
+
+    <!-- Section Names: -->
+    <string name="header_profile_title">PERFIL</string>
+
+    <!-- Section Names: -->
+    <string name="section_library_title">BIBLIOTECA</string>
+    <string name="section_personal_title">PESSOAL</string>
+    <string name="section_reader_title">LEITOR</string>
+    <string name="section_mal_title">MY ANIME LIST</string>
+    <string name="section_other_title">OUTROS</string>
+
+    <!-- Navigation Names: -->
+    <string name="navigation_anime_title">Anime</string>
+    <string name="navigation_manga_title">Mangá</string>
+    <string name="navigation_friends_title">Amigos</string>
+    <string name="navigation_catalogue_title">Catálogo</string>
+    <string name="navigation_reading_manga_title">Lendo</string>
+    <string name="navigation_search">Pesquisar</string>
+    <string name="navigation_just_added_title">Recém Adicionados</string>
+    <string name="navigation_most_popular_title">Mais Populares</string>
+    <string name="navigation_top_rated_title">Mais Votados</string>
+    <string name="navigation_upcoming_title">Próximos Lançamentos</string>
+    <string name="navigation_settings_title">Configurações</string>
+    <string name="navigation_logout_title">Sair</string>
+
+    <!-- Fragment Titles -->
+    <string name="fragment_library_anime">$user - Lista de Animes</string>
+    <string name="fragment_library_manga">$user - Lista de Mangás</string>
+    <string name="fragment_catalogue">Catálogo</string>
+    <string name="fragment_just_added">Recém Adicionadosd</string>
+    <string name="fragment_most_popular">Mais Populares</string>
+    <string name="fragment_top_rated">Mais Votados</string>
+    <string name="fragment_upcoming">Próximos Lançamentos</string>
+    <string name="fragment_profile">Perfil do $user</string>
+    <string name="fragment_search">Pesquisar</string>
+    <string name="fragment_settings">Configurações</string>
+    <string name="fragment_chapter">Capítulo</string>
+
+    <!-- DetailPersonal Names: -->
+    <string name="detail_personal_status">Status</string>
+    <string name="detail_personal_episodes">Episódios</string>
+    <string name="detail_personal_chapters">Capítulos</string>
+    <string name="detail_personal_volumes">Volumes</string>
+    <string name="detail_personal_rating">Classificação</string>
+    <string name="detail_personal_startdate">Data Inicial</string>
+    <string name="detail_personal_enddate">Data Final</string>
+    <string name="detail_personal_rewatching">Revendo?</string>
+    <string name="detail_personal_rereading">Relendo?</string>
+    <string name="detail_personal_rewatched">Reassistido</string>
+    <string name="detail_personal_reread">Relido</string>
+    <string name="detail_personal_update">Atualizando informações</string>
+    <string-array name="detail_personal_ratings">
+        <item>Sem classificação</item>
+        <item>1: Terrível</item>
+        <item>2: Horrível</item>
+        <item>3: Muito ruim</item>
+        <item>4: Ruim</item>
+        <item>5: Médio</item>
+        <item>6: Ok</item>
+        <item>7: Bom</item>
+        <item>8: Muito bom</item>
+        <item>9: Ótimo</item>
+        <item>10: Obra de arte</item>
+    </string-array>
+    <string name="detail_review_foundhelpful">[0] pessoas acharam essa review útil</string>
+
+    <!-- Anime Names -->
+    <string name="anime_status_not_yet">Não possui</string>
+    <string name="anime_status_watching">Assistindo</string>
+    <string name="anime_status_plantowatch">Planejo assistir</string>
+    <string name="anime_status_onhold">Em espera</string>
+    <string name="anime_status_completed">Completado</string>
+    <string name="anime_status_dropped">Desistiu</string>
+    <string-array name="anime_media_type">
+        <item>TV</item>
+        <item>OVA</item>
+        <item>Filme</item>
+        <item>Especial</item>
+        <item>ONA</item>
+        <item>Música</item>
+    </string-array>
+    <string-array name="anime_media_status">
+        <item>Atualmente no ar</item>
+        <item>Finalizado</item>
+        <item>Ainda não foi ao ar</item>
+    </string-array>
+    <string-array name="anime_media_user_status">
+        <item>Não possui</item>
+        <item>Assistindo</item>
+        <item>Completado</item>
+        <item>Em espera</item>
+        <item>Desistiu</item>
+        <item>@string/unknown</item>
+        <item>Planejo assistirh</item>
+    </string-array>
+
+    <!-- Manga Names -->
+    <string name="manga_status_not_yet">Não possui</string>
+    <string name="manga_status_reading">Lendo</string>
+    <string name="manga_status_plantoread">Planejo ler</string>
+    <string name="manga_status_onhold">Em espera</string>
+    <string name="manga_status_completed">Completado</string>
+    <string name="manga_status_dropped">Desistiu</string>
+    <string-array name="manga_media_type">
+        <item>Manga</item>
+        <item>Novel</item>
+        <item>One Shot</item>
+        <item>Doujin</item>
+        <item>Manwha</item>
+        <item>Manhua</item>
+        <item>OEL</item>
+    </string-array>
+    <string-array name="manga_media_status">
+        <item>Publicando</item>
+        <item>Finalizado</item>
+        <item>Não publicado ainda</item>
+    </string-array>
+    <string-array name="manga_media_user_status">
+        <item>Não possui</item>
+        <item>Lendo</item>
+        <item>Completado</item>
+        <item>Em espera</item>
+        <item>Desistiu</item>
+        <item>@string/unknown</item>
+        <item>Planejo ler</item>
+    </string-array>
+
+    <!-- Empty Name and Instruction Pairs: -->
+    <string name="no_library">Biblioteca Vazia</string>
+    <string name="library_instructions">Tente uma nova pesquisa ou filtro</string>
+    <string name="no_catalogue">Catálogo Vazio</string>
+    <string name="catalogue_instructions">Tente uma nova pesquisa ou filtro</string>
+    <string name="latest_instructions">Deslize para baixo para atualizar</string>
+    <string name="no_download_manga">Nenhum mangá baixado</string>
+    <string name="download_manga_instructions">Para baixar o mangá, \n aperte o botão \"Download\" na tela de mangá</string>
+    <string name="no_manga">Sem mangás</string>
+    <string name="manga_instructions">Deslize para baixo para atualizar</string>
+    <string name="no_chapter">Sem capítulos</string>
+    <string name="chapter_instructions">Selecione "Atualizar" no menu</string>
+    <string name="no_available_chapters">Nenhum capítulo disponível</string>
+
+    <!-- Date (Date format output) Items -->
+    <string name="dateformat">dd-MM-yy</string>
+    <!-- MM-dd-yy -->
+    <string name="datetimeformat">dd-MM-yy, h:mm a</string>
+    <string name="datetimeformat_yesterday">\'Ontem\', h:mm a</string>
+    <string name="datetimeformat_tomorrow">\'Amanhã\', h:mm a</string>
+    <string name="datetimeformat_dayname">EEEE, h:mm a</string>
+    <plurals name="minutes_ago">
+        <item quantity="zero">now</item>
+        <item quantity="one">Há um minuto</item>
+        <item quantity="other">Há %d minutos</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="zero">Agora</item>
+        <item quantity="one">Em %d minuto</item>
+        <item quantity="other">Em %d minutos</item>
+    </plurals>
+    <plurals name="hours_left">
+        <item quantity="one">%d hora de agora</item>
+        <item quantity="other">%d horas de agora</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">Há uma hora</item>
+        <item quantity="other">Há %d horas</item>
+    </plurals>
+
+    <!-- Share Strings: -->
+    <string name="custom_share_text_malbile">\n\nCompartilhado pelo Malbile! - MyAnimeList for mobile</string>
+
+    <!-- Profile Strings -->
+    <string name="profile_not_specified">não especificado</string>
+    <string name="profile_info_compatibility">Compatibilidade: $cpt</string>
+    <string-array name="profile_info_gender">
+        <item>Feminino</item>
+        <item>Masculino</item>
+    </string-array>
+
+    <!-- SearchBar -->
+    <string name="search_prompt">Pesquisar no MAL</string>
+
+    <!-- Catalogue Fragment: -->
+    <string name="catalogue_subtitle_page">Página:</string>
+
+    <!-- Manga Header Items: -->
+    <string name="manga_header_title_author">AUTOR</string>
+    <string name="manga_header_title_artist">ARTISTA</string>
+    <string name="manga_header_title_genre">GÊNERO</string>
+    <string name="manga_header_title_status">STATUS</string>
+    <string name="manga_header_title_chapter">CAPÍTULOS</string>
+    <string name="manga_header_chapter_error">Nenhum capítulo disponível</string>
+    <string name="manga_header_status_completed">Completado</string>
+    <string name="manga_header_status_ongoing">Em andamento</string>
+
+    <!-- Chapter Listings Items: -->
+    <string name="chapter_list_item_new">NOVO</string>
+    <string name="chapter_list_item_no_date">Sem data</string>
+
+    <!-- Manga Offline Selection Name: -->
+    <string name="manga_offline_selection_title">Excluir:</string>
+
+    <!-- Add To Queue Dialog Items: -->
+    <string name="add_to_queue_dialog_button_queue">Fila</string>
+    <string name="add_to_queue_dialog_button_toggle_all">Alternar Todos</string>
+    <string name="add_to_queue_dialog_button_cancel">Cancelar</string>
+
+    <!-- Mark Read Dialog Items: -->
+    <string name="mark_read_dialog_button_mark">Marcar</string>
+    <string name="mark_read_dialog_button_toggle_all">Alternar Todos</string>
+    <string name="mark_read_dialog_button_cancel">Cancelar</string>
+
+    <!-- Resume Chapter Dialog Items: -->
+    <string name="resume_chapter_text">Encontrou um capítulo recente, você gostaria de retomar esse capítulo onde você parou?</string>
+    <string name="resume_chapter_dialog_button_yes">Sim</string>
+    <string name="resume_chapter_dialog_button_no">Não</string>
+
+    <!-- Chapter Items: -->
+    <string name="chapter_subtitle_progress">Imagem Urls Buscada:</string>
+    <string name="chapter_subtitle_page">Página:</string>
+
+    <!-- Chapter Help Dialog Items: -->
+    <string name="chapter_help_dialog_text">
+        <ul><li><b>Toolbar Title</b>: Tap the toolbar title to view the full title of the chapter.</li>\n
+            <li><b>Refresh</b>: Tap the \"Refresh\" button to reload the current chapter or page if not loaded.</li>\n
+            <li><b>Right-to-Left/Left-to-Right</b>: Toggle the button to switch between the reading directions.</li>\n
+            <li><b>Lock Orientation/Unlock Orientation</b>: Toggle the button to enable and disable orientation lock.</li>\n
+            <li><b>Lock Zoom/Unlock Zoom</b>: Toggle the button to either lock or unlock the zoom settings between pages.</li>\n
+            <li><b>Single Tap (Middle)</b>: Toggle the visibility of on-screen controls.</li>\n
+            <li><b>Single Tap (Sides)</b>: Navigate to either the previous or next page.</li>\n
+            <li><b>Double Tap</b>: Toggle between the maximum and minimum zoom levels.</li>\n
+            <li><b>Scroll</b>: If the page is zoomed, scroll the page to move the image.</li>\n
+            <li><b>Fling</b>: If the page is zoomed, fling the page to move the image in the specified direction.</li>\n
+            <li><b>First/Last Page Swipe Out</b>: If the first or last page is swiped out, the previous or the next chapter will load.</li>\n
+            <li><b>Left Arrow/Right Arrow</b>: If either the left arrow or right arrow buttons are pressed, the previous or the next chapter will load, respectively.</li></ul>
+    </string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_send_message">SendMessageActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_library">LibraryActivity</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="title_activity_recommendation">RecommendationActivity</string>
+    <string name="title_activity_manga">MangaActivity</string>
+    <string name="title_activity_chapter">ChapterActivity</string>
+
+</resources>

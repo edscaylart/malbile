@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:fab="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="br.scaylart.malbile.views.fragments.CatalogueFragment">
+
+    <include layout="@layout/empty"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/baseline_grid_unit"
+        android:clipToPadding="false"/>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/previousButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/baseline_content_unit"
+        android:src="@drawable/ic_chevron_left_white_24dp"
+        fab:fab_colorNormal="@color/primaryBlue500"
+        fab:fab_colorPressed="@color/accentPinkA200"/>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/baseline_content_unit"
+        android:src="@drawable/ic_chevron_right_white_24dp"
+        fab:fab_colorNormal="@color/primaryBlue500"
+        fab:fab_colorPressed="@color/accentPinkA200"/>
+</FrameLayout>
